@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yong Wei | Senior Data Scientist</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Configure Tailwind to use Inter font and apply responsive styles -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f4f7f9; /* Light background for professionalism */
+        }
+        /* Custom scrollbar styling */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background-color: #cbd5e1;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        .skill-badge {
+            display: inline-block;
+            background-color: #eef2ff; /* indigo-50 */
+            color: #4f46e5; /* indigo-600 */
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+            transition: all 150ms ease-in-out;
+        }
+        .skill-badge:hover {
+            background-color: #e0e7ff; /* indigo-100 */
+        }
+    </style>
+</head>
+<body class="antialiased text-gray-800">
+
+    <!-- Main Container -->
+    <div class="max-w-4xl mx-auto p-4 sm:p-6 lg:p-8">
+
+        <!-- Header/Profile Card -->
+        <header class="bg-white shadow-xl rounded-2xl p-6 mb-8 transform transition duration-500 hover:scale-[1.01]">
+            <div class="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-6">
+                <!-- Profile Image Placeholder -->
+                <div class="flex-shrink-0">
+                    <img class="h-28 w-28 rounded-full object-cover ring-4 ring-indigo-500/50" 
+                         src="https://placehold.co/112x112/4f46e5/ffffff?text=YW" 
+                         alt="Profile picture of Yong Wei">
+                </div>
+                <!-- Text Content -->
+                <div class="text-center sm:text-left">
+                    <h1 class="text-3xl font-extrabold text-gray-900">Yong Wei</h1>
+                    <p class="text-xl text-indigo-600 font-semibold mt-1">Senior Data Scientist at Google</p>
+                    <p class="text-gray-500 mt-2">Greater Seattle Area | Expert in leveraging massive data for product insights.</p>
+                </div>
+            </div>
+            <!-- Links Section -->
+            <div class="mt-6 border-t pt-4 flex flex-wrap justify-center sm:justify-start gap-4">
+                <a href="https://github.com/yourusername" target="_blank" class="text-sm font-medium text-gray-600 hover:text-indigo-600 transition duration-150 flex items-center">
+                    <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.417 2.865 8.17 6.819 9.504.499.09.679-.217.679-.481 0-.237-.01-1.017-.014-1.845-2.754.588-3.329-1.258-3.329-1.258-.436-1.107-1.066-1.405-1.066-1.405-.873-.591.069-.579.069-.579.966.068 1.47 1 1.47 1 .858 1.468 2.253 1.042 2.793.797.085-.621.336-1.042.612-1.282-2.138-.236-4.373-1.071-4.373-4.743 0-1.048.375-1.907 1-2.576-.1-.236-.435-1.222.091-2.531 0 0 .825-.262 2.706 1 .785-.218 1.625-.329 2.474-.333.85.004 1.69.115 2.475.333 1.88-1.262 2.705-1 2.705-1 .526 1.309.19 2.295.091 2.531.625.669 1 1.528 1 2.576 0 3.682-2.236 4.506-4.379 4.74.346.297.669.87.669 1.766 0 1.282-.012 2.316-.012 2.645 0 .267.178.577.687.479C19.137 20.181 22 16.428 22 12.017 22 6.484 17.523 2 12 2z" clip-rule="evenodd" /></svg>
+                    GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/yong-wei/" target="_blank" class="text-sm font-medium text-gray-600 hover:text-indigo-600 transition duration-150 flex items-center">
+                    <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.568-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                    LinkedIn
+                </a>
+                <a href="mailto:yong.wei@example.com" class="text-sm font-medium text-gray-600 hover:text-indigo-600 transition duration-150 flex items-center">
+                    <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M.05 3.1c.01-.01.03-.01.04-.01h23.83c.01 0 .03.01.04.01.12.09.19.22.19.36v17.08c0 .14-.07.27-.19.36-.01.01-.03.01-.04.01H.09c-.01 0-.03-.01-.04-.01-.12-.09-.19-.22-.19-.36V3.46c0-.14.07-.27.19-.36zM2 5.09v14.49l6.59-6.59-6.59-6.59zm1.38-.99h19.23L12 14.12 3.38 4.1zM14 15.68l-2 2-2-2-7.59 7.59h19.18L14 15.68zm5.59 4.09L12 12.18l7.59-7.59v14.49z"/></svg>
+                    Email (Placeholder)
+                </a>
+            </div>
+        </header>
+
+        <!-- Main Content Grid -->
+        <main class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+
+            <!-- Left Column for About, Skills -->
+            <div class="lg:col-span-1 space-y-8">
+
+                <!-- About Section -->
+                <section class="bg-white shadow-lg rounded-2xl p-6">
+                    <h2 class="text-xl font-bold text-gray-900 border-b pb-2 mb-4">About Me</h2>
+                    <p class="text-gray-600 leading-relaxed">
+                        A Senior Data Scientist at Google, based in the Greater Seattle Area, with a strong background in product analytics and data science across multiple industry leaders (Google, Pinterest, Avalara). Specializing in building analytical pipelines, extracting product insights from massive datasets (Pixel Phones, hardware launches), and driving data-informed business strategies.
+                    </p>
+                </section>
+
+                <!-- Key Skills Section -->
+                <section class="bg-white shadow-lg rounded-2xl p-6">
+                    <h2 class="text-xl font-bold text-gray-900 border-b pb-2 mb-4">Key Skills & Expertise</h2>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-badge">Statistical Modeling</span>
+                        <span class="skill-badge">Python</span>
+                        <span class="skill-badge">Data Analysis</span>
+                        <span class="skill-badge">SQL</span>
+                        <span class="skill-badge">R Programming</span>
+                        <span class="skill-badge">Machine Learning</span>
+                        <span class="skill-badge">Product Analytics</span>
+                        <span class="skill-badge">Experimental Design</span>
+                        <span class="skill-badge">A/B Testing</span>
+                        <span class="skill-badge">ETL Processes</span>
+                        <span class="skill-badge">Data Visualization</span>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Right Column for Experience and Education -->
+            <div class="lg:col-span-2 space-y-8">
+
+                <!-- Experience Section -->
+                <section class="bg-white shadow-lg rounded-2xl p-6">
+                    <h2 class="text-xl font-bold text-gray-900 border-b pb-2 mb-4">Professional Experience</h2>
+
+                    <!-- Experience Item 1: Google (Senior Data Scientist) -->
+                    <div class="mb-6 pb-6 border-b">
+                        <div class="flex justify-between items-start">
+                            <h3 class="text-lg font-semibold text-gray-900">Senior Data Scientist</h3>
+                            <span class="text-sm font-medium text-indigo-600 bg-indigo-100 px-3 py-1 rounded-full">Full-time</span>
+                        </div>
+                        <p class="text-md text-gray-700 font-medium">Google</p>
+                        <p class="text-sm text-gray-500 mb-2">Jun 2023 – Present | Greater Seattle Area</p>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1 ml-4">
+                            <li>Currently focused on Pixel hardware and power efficiency (Pixel power).</li>
+                            <li>Drove data-backed improvements for product performance and user experience.</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Experience Item 2: Pinterest (Senior Data Scientist) -->
+                    <div class="mb-6 pb-6 border-b">
+                        <div class="flex justify-between items-start">
+                            <h3 class="text-lg font-semibold text-gray-900">Senior Data Scientist</h3>
+                            <span class="text-sm font-medium text-gray-600 bg-gray-100 px-3 py-1 rounded-full">Full-time</span>
+                        </div>
+                        <p class="text-md text-gray-700 font-medium">Pinterest</p>
+                        <p class="text-sm text-gray-500 mb-2">Jul 2022 – Feb 2023 | Greater Seattle Area</p>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1 ml-4">
+                            <li>Built analytical pipelines to understand conversion upsells performance.</li>
+                            <li>Provided data-driven suggestions to improve the user conversion experience.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Experience Item 3: Google (Senior Product Analyst, Data Science) -->
+                    <div class="mb-6 pb-6 border-b">
+                        <div class="flex justify-between items-start">
+                            <h3 class="text-lg font-semibold text-gray-900">Senior Product Analyst, Data Science</h3>
+                            <span class="text-sm font-medium text-indigo-600 bg-indigo-100 px-3 py-1 rounded-full">Full-time</span>
+                        </div>
+                        <p class="text-md text-gray-700 font-medium">Google</p>
+                        <p class="text-sm text-gray-500 mb-2">Oct 2020 – Jul 2022 | Greater Seattle Area</p>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1 ml-4">
+                            <li>Designed and launched an internal data platform for testing new hardware products.</li>
+                            <li>Supported product strategy through detailed analysis of test data and metrics.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Experience Item 4: Google (Product Analyst, Data Science) -->
+                    <div class="mb-6 pb-6 border-b">
+                        <div class="flex justify-between items-start">
+                            <h3 class="text-lg font-semibold text-gray-900">Product Analyst, Data Science</h3>
+                            <span class="text-sm font-medium text-indigo-600 bg-indigo-100 px-3 py-1 rounded-full">Full-time</span>
+                        </div>
+                        <p class="text-md text-gray-700 font-medium">Google</p>
+                        <p class="text-sm text-gray-500 mb-2">Mar 2018 – Oct 2020 | San Francisco Bay Area</p>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1 ml-4">
+                            <li>Uncovered insights behind massive data generated by Google Pixel Phones.</li>
+                            <li>Contributed to product improvements through deep dives and statistical analysis.</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Experience Item 5: Avalara (Data Scientist, Product Science) -->
+                    <div class="mb-6 pb-6 last:border-b-0 last:pb-0">
+                        <div class="flex justify-between items-start">
+                            <h3 class="text-lg font-semibold text-gray-900">Data Scientist, Product Science</h3>
+                            <span class="text-sm font-medium text-gray-600 bg-gray-100 px-3 py-1 rounded-full">Full-time</span>
+                        </div>
+                        <p class="text-md text-gray-700 font-medium">Avalara</p>
+                        <p class="text-sm text-gray-500 mb-2">Apr 2016 – Mar 2018 | Greater Seattle Area</p>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1 ml-4">
+                            <li>Utilized product/customer/financial data to fill information gaps between engineering/product/marketing teams.</li>
+                            <li>Facilitated and improved data-driven decision-making across the organization.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Note: Career break omitted for professional presentation -->
+
+                </section>
+
+                <!-- Education Section -->
+                <section class="bg-white shadow-lg rounded-2xl p-6">
+                    <h2 class="text-xl font-bold text-gray-900 border-b pb-2 mb-4">Education</h2>
+                    
+                    <!-- Education Item 1: PhD ABD -->
+                    <div class="mb-4 pb-4 border-b">
+                        <h3 class="text-lg font-semibold text-gray-900">Ph.D. (All but dissertation), Marketing</h3>
+                        <p class="text-md text-gray-700 font-medium">Naveen Jindal School of Management, UT Dallas</p>
+                        <p class="text-sm text-gray-500">2010 – 2015</p>
+                        <p class="text-xs text-gray-500 mt-1">Activities: Taught Principles of Marketing class for two semesters.</p>
+                    </div>
+                    
+                    <!-- Education Item 2: M.Ed. -->
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-900">Master of Education (M.Ed.), Sports Management</h3>
+                        <p class="text-md text-gray-700 font-medium">The University of Texas at Austin</p>
+                        <p class="text-sm text-gray-500">2008 – 2010</p>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="mt-8 text-center text-gray-500 text-sm p-4">
+            &copy; 2024 Yong Wei. Built with HTML and Tailwind CSS.
+        </footer>
+
+    </div>
+</body>
+</html>
